@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #f5f7fa;
   color: #333;
   line-height: 1.6;
@@ -54,7 +54,7 @@ h2 {
   background: white;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .reasons {
   list-style: none;
@@ -77,6 +77,9 @@ h2 {
   text-decoration: none;
   border-radius: 5px;
 }
+#contact {
+  text-align: center;
+}
 footer {
   text-align: center;
   background-color: #003366;
@@ -85,7 +88,8 @@ footer {
   font-size: 0.9rem;
 }
 @media (max-width: 768px) {
-  .grid, .portfolio-grid {
+  .grid,
+  .portfolio-grid {
     flex-direction: column;
     align-items: center;
   }
